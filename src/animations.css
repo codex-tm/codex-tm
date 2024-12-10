@@ -1,0 +1,146 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0px 0px 10px rgba(0, 71, 171, 0.8);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 20px rgba(0, 71, 171, 1);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0px 0px 10px rgba(0, 71, 171, 0.8);
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px #0047AB, 0 0 20px #0047AB;
+    }
+    100% {
+      box-shadow: 0 0 20px #0047AB, 0 0 40px #0047AB;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px #E63946, 0 0 20px #E63946;
+    }
+    100% {
+      box-shadow: 0 0 20px #E63946, 0 0 40px #E63946;
+    }
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #457b9d, #1d3557); /* Fundo dinâmico */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .iconContainer:hover {
+    transform: scale(1.2); /* Ícone maior no hover */
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #457b9d, #1d3557); /* Fundo dinâmico */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .iconContainer:hover {
+    transform: scale(1.2); /* Ícone maior no hover */
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .videoContainer:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra mais forte no hover */
+    transform: scale(1.02); /* Leve aumento no tamanho */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+    
